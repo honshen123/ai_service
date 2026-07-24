@@ -1,0 +1,162 @@
+{
+  "pages": [
+    {
+      "path": "pages/login/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "登录"
+      }
+    },
+    {
+      "path": "pages/messages/index",
+      "style": {
+        "navigationStyle": "custom",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/notifications/index",
+      "style": {
+        "navigationStyle": "custom",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/tickets/index",
+      "style": {
+        "navigationStyle": "custom",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/statistics/index",
+      "style": {
+        "navigationStyle": "custom",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/billing/index",
+      "style": {
+        "navigationBarTitleText": "计费中心",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/billing-records/index",
+      "style": {
+        "navigationBarTitleText": "账单明细",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/qa-review/index",
+      "style": {
+        "navigationBarTitleText": "QA 审核",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/profile/index",
+      "style": {
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/profile/settings/index",
+      "style": {
+        "navigationBarTitleText": "个人设置"
+      }
+    },
+    {
+      "path": "pages/chat/index",
+      "style": {
+        "navigationBarTitleText": "会话详情"
+      }
+    },
+    {
+      "path": "pages/ticket-detail/index",
+      "style": {
+        "navigationBarTitleText": "工单详情"
+      }
+    },
+    {
+      "path": "pages/knowledge/index",
+      "style": {
+        "navigationBarTitleText": "知识库"
+      }
+    },
+    {
+      "path": "pages/platforms/index",
+      "style": {
+        "navigationBarTitleText": "店铺管理"
+      }
+    },
+    {
+      "path": "pages/agents/index",
+      "style": {
+        "navigationBarTitleText": "客服管理",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/system-settings/index",
+      "style": {
+        "navigationBarTitleText": "系统设置",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/ai-settings/index",
+      "style": {
+        "navigationBarTitleText": "AI 设置",
+        "enablePullDownRefresh": true
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "AI 客服",
+    "navigationBarBackgroundColor": "#ffffff",
+    "backgroundColor": "#f2f3f5"
+  },
+  "tabBar": {
+    "custom": true,
+    "color": "#8f959e",
+    "selectedColor": "#3370ff",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/messages/index",
+        "text": "工作台",
+        "iconPath": "static/tab/message.png",
+        "selectedIconPath": "static/tab/message-active.png"
+      },
+      {
+        "pagePath": "pages/tickets/index",
+        "text": "工单",
+        "iconPath": "static/tab/ticket.png",
+        "selectedIconPath": "static/tab/ticket-active.png"
+      },
+      {
+        "pagePath": "pages/notifications/index",
+        "text": "消息",
+        "iconPath": "static/tab/message.png",
+        "selectedIconPath": "static/tab/message-active.png"
+      },
+      {
+        "pagePath": "pages/statistics/index",
+        "text": "数据",
+        "iconPath": "static/tab/stats.png",
+        "selectedIconPath": "static/tab/stats-active.png"
+      },
+      {
+        "pagePath": "pages/profile/index",
+        "text": "我的",
+        "iconPath": "static/tab/profile.png",
+        "selectedIconPath": "static/tab/profile-active.png"
+      }
+    ]
+  }
+}

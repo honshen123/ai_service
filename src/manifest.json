@@ -1,0 +1,60 @@
+{
+  "name": "AI智能客服",
+  "appid": "",
+  "description": "AI Customer Service SaaS 移动端",
+  "versionName": "1.0.0",
+  "versionCode": "100",
+  "transformPx": false,
+  "app-plus": {
+    "usingComponents": true,
+    "nvueStyleCompiler": "uni-app",
+    "compilerVersion": 3,
+    "splashscreen": {
+      "alwaysShowBeforeRender": true,
+      "waiting": true,
+      "autoclose": true,
+      "delay": 0
+    },
+    "distribute": {
+      "android": {
+        "permissions": [
+          "<uses-permission android:name=\"android.permission.INTERNET\"/>",
+          "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>"
+        ]
+      },
+      "ios": {}
+    }
+  },
+  "mp-weixin": {
+    "appid": "",
+    "setting": {
+      "urlCheck": false
+    },
+    "usingComponents": true
+  },
+  "h5": {
+    "title": "AI 客服移动端",
+    "router": {
+      "mode": "hash"
+    },
+    "devServer": {
+      "port": 5180,
+      "host": "0.0.0.0",
+      "strictPort": true,
+      "proxy": {
+        "/tenant": {
+          "target": "http://127.0.0.1:8000",
+          "changeOrigin": true
+        },
+        "/health": {
+          "target": "http://127.0.0.1:8000",
+          "changeOrigin": true
+        }
+      }
+    }
+  },
+  "uniStatistics": {
+    "enable": false
+  },
+  "vueVersion": "3"
+}

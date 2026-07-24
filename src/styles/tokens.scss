@@ -1,0 +1,234 @@
+page,
+
+.theme-light {
+
+  /* 主色 — 飞书 / Intercom 系企业蓝 */
+
+  --cs-primary: #2563eb;
+
+  --cs-primary-light: #3b82f6;
+
+  --cs-primary-dark: #1d4ed8;
+
+  --cs-primary-soft: rgba(37, 99, 235, 0.08);
+
+  --cs-primary-gradient: linear-gradient(135deg, #2563eb 0%, #6366f1 100%);
+
+  --cs-accent: #6366f1;
+
+  --cs-accent-soft: rgba(123, 97, 255, 0.08);
+
+  --cs-success: #00b42a;
+
+  --cs-success-soft: rgba(0, 180, 42, 0.08);
+
+  --cs-warning: #ff7d00;
+
+  --cs-warning-soft: rgba(255, 125, 0, 0.08);
+
+  --cs-danger: #f53f3f;
+
+  --cs-danger-soft: rgba(245, 63, 63, 0.08);
+
+  --cs-info: #3370ff;
+
+  --cs-info-soft: rgba(51, 112, 255, 0.08);
+
+
+
+  /* 背景与表面 */
+
+  --cs-bg-page: #f2f3f5;
+
+  --cs-bg-page-gradient: #f2f3f5;
+
+  --cs-bg-elevated: #ffffff;
+
+  --cs-bg-subtle: #f7f8fa;
+
+  --cs-bg-input: #f7f8fa;
+
+  --cs-bg-nav: rgba(255, 255, 255, 0.96);
+
+  --cs-bg-chat: #eef0f3;
+
+  --cs-bg-chat-pattern: none;
+
+
+
+  /* 文字 */
+
+  --cs-text-primary: #1f2329;
+
+  --cs-text-secondary: #646a73;
+
+  --cs-text-muted: #8f959e;
+
+  --cs-text-inverse: #ffffff;
+
+
+
+  /* 边框与分割 */
+
+  --cs-border: #dee0e3;
+
+  --cs-divider: #e5e6eb;
+
+
+
+  /* 阴影 — 克制、扁平 */
+
+  --cs-shadow-xs: 0 1px 2px rgba(31, 35, 41, 0.04);
+
+  --cs-shadow-sm: 0 2px 8px rgba(31, 35, 41, 0.06);
+
+  --cs-shadow-md: 0 4px 16px rgba(31, 35, 41, 0.08);
+
+  --cs-shadow-lg: 0 8px 24px rgba(31, 35, 41, 0.1);
+
+
+
+  /* 圆角 — 企业级偏小 */
+
+  --cs-radius-sm: 6px;
+
+  --cs-radius-md: 8px;
+
+  --cs-radius-lg: 12px;
+
+  --cs-radius-xl: 16px;
+
+  --cs-radius-full: 9999px;
+
+
+
+  /* 聊天气泡 */
+
+  --cs-bubble-customer: #ffffff;
+
+  --cs-bubble-agent: #3370ff;
+
+  --cs-bubble-ai: #7b61ff;
+
+  --cs-bubble-system: #e5e6eb;
+
+  --cs-card-product: #7b61ff;
+
+  --cs-card-order: #ff7d00;
+
+
+
+  /* KPI 卡片 */
+
+  --cs-stat-blue: #ffffff;
+
+  --cs-stat-amber: #ffffff;
+
+  --cs-stat-red: #ffffff;
+
+  /* 底部导航 */
+  --cs-tab-bg: #ffffff;
+  --cs-tab-border: #e5e6eb;
+  --cs-tab-inactive: #8f959e;
+  --cs-tab-active: #3370ff;
+  --cs-tab-shadow: 0 -1px 4px rgba(31, 35, 41, 0.06);
+
+}
+
+
+
+.theme-dark {
+
+  --cs-primary: #5086ff;
+
+  --cs-primary-light: #6b9bff;
+
+  --cs-primary-dark: #3370ff;
+
+  --cs-primary-soft: rgba(80, 134, 255, 0.14);
+
+  --cs-primary-gradient: linear-gradient(135deg, #3370ff 0%, #5086ff 100%);
+
+  --cs-accent: #9f8fef;
+
+  --cs-accent-soft: rgba(159, 143, 239, 0.14);
+
+  --cs-success: #27c346;
+
+  --cs-success-soft: rgba(39, 195, 70, 0.14);
+
+  --cs-warning: #ff9a2e;
+
+  --cs-warning-soft: rgba(255, 154, 46, 0.14);
+
+  --cs-danger: #f76965;
+
+  --cs-danger-soft: rgba(247, 105, 101, 0.14);
+
+  --cs-info: #5086ff;
+
+  --cs-info-soft: rgba(80, 134, 255, 0.14);
+
+  --cs-bg-page: #17171a;
+
+  --cs-bg-page-gradient: #17171a;
+
+  --cs-bg-elevated: #232326;
+
+  --cs-bg-subtle: #2e2e32;
+
+  --cs-bg-input: #2e2e32;
+
+  --cs-bg-nav: rgba(35, 35, 38, 0.96);
+
+  --cs-bg-chat: #17171a;
+
+  --cs-bg-chat-pattern: none;
+
+  --cs-text-primary: #e5e6eb;
+
+  --cs-text-secondary: #a9aeb8;
+
+  --cs-text-muted: #6b7075;
+
+  --cs-text-inverse: #ffffff;
+
+  --cs-border: #3a3a3f;
+
+  --cs-divider: #2e2e32;
+
+  --cs-shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.2);
+
+  --cs-shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.25);
+
+  --cs-shadow-md: 0 4px 16px rgba(0, 0, 0, 0.3);
+
+  --cs-shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.35);
+
+  --cs-bubble-customer: #2e2e32;
+
+  --cs-bubble-agent: #3370ff;
+
+  --cs-bubble-ai: #7b61ff;
+
+  --cs-bubble-system: #3a3a3f;
+
+  --cs-card-product: #9f8fef;
+
+  --cs-card-order: #ff9a2e;
+
+  --cs-stat-blue: #232326;
+
+  --cs-stat-amber: #232326;
+
+  --cs-stat-red: #232326;
+
+  --cs-tab-bg: #232326;
+  --cs-tab-border: #2e2e32;
+  --cs-tab-inactive: #6b7075;
+  --cs-tab-active: #5086ff;
+  --cs-tab-shadow: 0 -1px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+
